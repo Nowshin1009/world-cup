@@ -1,0 +1,114 @@
+ /* Media Query for Mobile Devices */
+ @media (max-width: 688px) {
+    /* Header */
+    header{
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+    .header{
+        display: block;
+    }
+    .left-header h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .left-header button {
+        margin: 10px auto;
+        display: block;
+    }
+    .left-header p {
+        font-size: .8rem;
+        text-align: center;
+    }
+    .right-header img{
+        width: 16rem;
+    }
+    /* Blog Section */
+    #blog{
+        width: 100%;
+    }
+    .blog{
+        display: block;
+    }
+    .blog-nav{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        background: none;
+    }
+    .blog-body{
+        display: block;
+        margin: 10px auto;
+    }
+    .blog-content img{
+        width: 250px;
+    }
+
+    /* footer */
+    footer h1{
+        font-size: 18px;
+    }
+    .links{
+        display: block;
+    }
+    .links a{
+        display: block;
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
+  
+/* Tablets Device */
+@media (min-width: 768px) and (max-width: 1024px){
+    /* Header */
+    .left-header h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .left-header button {
+        margin: 10px auto;
+        display: block;
+    }
+    .left-header p {
+        font-size: .8rem;
+        text-align: center;
+    }
+    .right-header img{
+        width: 20rem;
+    }
+
+    /* Blog Section */
+    .blog{
+        display: block;
+    }
+    .blog-nav{
+        background: none;
+    }
+    .blog-nav ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .blog-nav{
+        width: 100%;
+    }
+    .blog-body {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .viewall-btn{
+        display: block;
+    }
+
+    /* footer */
+    .links a{
+        font-size: 16px;
+        width: 20%;
+    }
+
+}

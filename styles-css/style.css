@@ -1,0 +1,210 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+/* common style  */
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0;
+   background-color: white;
+}
+
+/* Header */
+header{
+    width: 90%;
+    margin: 10px auto;
+    background-color: black;
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-header{
+  width: 50%;
+    padding: 10px;
+    margin-left: 106px;
+}
+.left-header h1{
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+.left-header p{
+    margin-bottom: 20px;
+    color: white;
+}
+.left-header button{
+    padding: 15px 22px;
+    margin-top: 5px;
+    background-color: rgb(241, 95, 95);
+    border-radius: 15px;
+    color: white;
+    border-color: rgb(250, 103, 103);
+    background-image: linear-gradient(45deg, rgb(196, 3, 3) 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+    cursor: pointer;
+}
+.left-header button:hover{
+    background-position: 0;
+}
+.right-header{
+    padding: 10px;
+}
+.right-header img{
+  width: 30rem;
+  display: block;
+  margin: 0 auto;
+}
+/* Blog Sectiona */
+#blog, #upcomming{
+    width: 90%;
+   margin: 20px auto;
+}
+.blog{
+    display: flex;
+    
+}
+.blog-nav{
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    margin-top: 25px;
+}
+.blog-nav li{
+    list-style: none;
+}
+.blog-nav a{
+    display: block;
+    border: 1px solid darkslategray;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    font-weight:700;
+    transition: .5s ease;
+}
+.blog-nav a:hover{
+    color: white;
+    background-color: #DD0000;
+}
+.blog-nav a:active{
+    color: white;
+    background-color: #DD0000;
+}
+
+.blog-body{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+}
+.blog-content{
+    padding: 15px 10px;
+    box-shadow: 10px 10px whitesmoke;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.blog-content img{
+    width: 290px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+.blog-content button{
+    cursor: pointer;
+    margin: 2px;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+.blog-content h3{
+    font-size: 18pxpx;
+    margin: 5px 1px;
+}
+.blog-time{
+    margin: 5px 2px;
+}
+.viewall-btn{
+    padding: 15px 30px;
+    margin-top: 5px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    border-color: black;
+    background-image: linear-gradient(45deg, rgb(106 19 19) 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background .6s ease-in-out;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    display: none;
+}
+
+/* Upcoming content */
+.upcomming-content{
+    padding: 15px 10px;
+    box-shadow: 10px 10px whitesmoke;
+    border: 2px solid white;
+    border-radius: 20px;   
+}
+.upcomming-content h1{
+    text-align: center;
+}
+.upcomming-content p{
+    text-align: center;
+}
+
+.country-vs-country{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px 0px;
+}
+.country-vs-country h1{
+    text-align: center;
+}
+/* footer */
+
+footer{
+    margin-top: 5%;
+    background-color: #161616;
+}
+.footer{
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.footer h1{
+    color: white;
+    margin: 15px 0px;
+    text-align: center;
+    border-bottom: 1px solid B6B6B6;
+}
+.links{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.links a{
+    padding: 10px;
+    color: #B6B6B6;
+    text-decoration: none;
+}
+.social-link{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social-link a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
